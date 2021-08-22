@@ -73,7 +73,12 @@
     "repositories": {
         "hooks": {
             "type": "composer",
-            "url": "https://larapack.io"
+            "url": "https://larapack.io",
+            "options":{
+                "ssl":{
+                    "verify peer": false
+                }
+            }
         }
     }
 }
